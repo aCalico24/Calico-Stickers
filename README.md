@@ -7,6 +7,6 @@
 
 **禁止事项：禁止用于商业用途、投喂AI以及用于不符合社会主义核心价值观的内容**
 
-![预览](https://github.com/aCalico24/Calico-Stickers/blob/main/%E5%90%88%E9%9B%86%E9%A2%84%E8%A7%88.png)
+![预览](合集预览.png)
 
 提供灵感&建议：qq联系印花布
