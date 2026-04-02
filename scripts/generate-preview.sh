@@ -1,10 +1,10 @@
-#! /usr/bin/env bash
+#!/usr/bin/env bash
 
 set -euo pipefail
 
 if command -v magick >/dev/null 2>&1; then
 	IM_CMD=(magick)
-elif command -v convert >/dev/null 2>&1; then
+elif command -v convert >/dev/null 2>&1 && convert -version 2>/dev/null | grep -qi 'ImageMagick'; then
 	IM_CMD=(convert)
 else
 	echo "Please install ImageMagick first (requires 'magick' or 'convert' command)." >&2
